@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^universitas/?$ index.php [NC,L]
+RewriteRule ^universitas/([0-9]+)/?$ index.php?id=$1 [NC.L]
